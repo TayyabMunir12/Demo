@@ -5,7 +5,7 @@ public class Exception_Handling {
     public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
 int[] array = getArray();
-System.out.print("Enter the index of the array: ");
+System.out.print("Enter the index : ");
 try {
 System.out.println("The corresponding element value is " + 
 array[input.nextInt()]);
